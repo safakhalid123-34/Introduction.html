@@ -1,19 +1,41 @@
-*{
-    font-size:30px;
-    font-weight 500;
+body{
+    font-family: ariel, sans-serif;
+    background-color: rgb(247, 204, 213);
+    color: antiquewhite;
 }
-h3{
-    color:darkmagenta;
+h1{
+    color: aqua;
 }
-h4{
-    color:blue;
+a{
+    color: rgb(162, 214, 214);
 }
-.myclass{
-    color:aqua;
+a:hover{
+    color: beige;
 }
-#myid{
-     color:black;
+ul > li{
+      font-weight: bold;
 }
-h5,p{
-    color:blueviolet;
+hl + p{
+    background-color: rgb(247, 193, 193);
+    padding: 10px;
+    border-radius: 5px;
+}
+ul li:hover{
+    color: floralwhite;
+}
+ul li:nth-child(3) {
+     background-color: bisque;
+}
+p:not(:first-of-type) {
+    text-decoration:underline;
+}
+ul li::before{
+    content:"**";
+}
+a::after{
+    content:"**";
+}
+p::first-letter{
+    font-size: 200%;
+    color: aquamarine;
 }
